@@ -16,3 +16,12 @@
 
 
 **Link to work**: [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
+
+### Day 3: Jan 9, 2020
+
+**Today's Progress**: Start using TypeScript. Finally add first E2E test! Add some magic babel plugins got from StackOverflow that fixes bug and help starting up the test
+
+**Thoughts**: TypeScript is very interesting. It introduces type strict which I really like in Python to JavaScript world. It should help writing JavaScript to be much cleaner. Somehow, I still struggle with TypeScript, Babel and plain JavaScript. I've just could not understand why we need to do so many things just to use TypeScript. Today, I've add 3 Babel preset/plugins without knowing what they do (But somehow, it solves the problem, which is very annoying!!!!). So, I will read more about TypeScript and Babel! Another thing, the way I did the E2E testing was still very tricky and untidy. Hoping that I could find a better way by reading the Art of Unit Testing!
+
+
+**Link to work**: [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
