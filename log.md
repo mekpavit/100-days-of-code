@@ -25,3 +25,12 @@
 
 
 **Link to work**: [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
+
+### Day 4: Jan 11, 2020
+
+**Today's Progress**: Use jest.mock to mock LINE lib dependency. Rewrite and add E2E test for all features.
+
+**Thoughts**: Refering to what I said yesterday about the new way to perform E2E testing, finally, I found the way to do the E2E testing for this app. Instead of using an abstact class, I used mock feature in Jest which is very powerful. From now, I will always use Jest when writing JavaScript app! For the next days, I will try to pass all E2E tests first before refactoring the code; Because in the previous project, I had to delete and write many unit tests because I over-designed the app before writing the code, and had to change the design because the previous one was not working. BTW, today I had a satisified progress! Can't wait for tomorrow.
+
+
+**Link to work**: [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
