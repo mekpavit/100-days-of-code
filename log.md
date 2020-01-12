@@ -34,3 +34,13 @@
 
 
 **Link to work**: [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
+
+### Day 5: Jan 12, 2020
+
+**Today's Progress**: Finish 1st week of Princeton's Algorithms course on Coursera!
+
+**Thoughts**: Today I switched from doing the project to doing the assignment from Algorithms course! This assignment is about Dynamic Connectivity problem which is solved by Union and Find operation. The assignment is very interesting! I have to write a Monte Carlo simulation to solve the percolation problem. This is my first time writing Java application after my freshman at the university. It was a bit hard to switch from very easy language like Python and JavaScript but I finally did it! The only thing I feel a bit annoying is that; It is very hard to set up Test Suite for Java! I'd tried to set it up for about 1 hour and then gave up. So, I hope I can write the Java unit test using JUnit before I finish the course!
+
+
+**Link to work**: [My Assignments Repo](https://github.com/mekpavit/coursera-princeton-algorithms)
+
