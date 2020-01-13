@@ -44,3 +44,11 @@
 
 **Link to work**: [My Assignments Repo](https://github.com/mekpavit/coursera-princeton-algorithms)
 
+### Day 6: Jan 13, 2020
+
+**Today's Progress**: Add mongodb to the app but it's still incomplete.
+
+**Thoughts**: Trying to use jest-mongodb might be the worst thing for the beginner. Tomorrow I will use the normal mongodb first to test whether or not everything is working and then moving to jest-mongodb for test. Typescript + JavaScript + Babel is so confuse!!!!
+
+
+**Link to work**: [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
