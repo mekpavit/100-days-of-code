@@ -52,3 +52,12 @@
 
 
 **Link to work**: [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
+
+### Day 7: Jan 14, 2020
+
+**Today's Progress**: Try to fix mongodb, did not work.
+
+**Thoughts**: This time, I switched from in-mermory mongo to the real one. The problem seems to be the wrong usage of async and await things. So, I changed from async-await to normal callback. Everything seemed to work as expected, except one thing... The result in mongodb was inconsistant! Sometimes it's worked, sometimes it's not. Hope to find out why this happened tomorrow.
+
+
+**Link to work**: [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
