@@ -63,3 +63,11 @@
 **Thoughts**: Simple is the best! After trying on async/await which I don't fully understand how it works, this time, I was focusing on simple plain callback instead! Although the callback is very ugly (callback hell), but it is very simple and easy to understand! Next time after I master the callback approach, I will come back for async/await. My plan for tomorrow is to test the app with real LINE account; And if it works, I will try to write unit test and refactor those database-calling method into ORM-like object.
 
 **Link to work**: [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
+
+### Day 9: Jan 16, 2020
+
+**Today's Progress**: Cleared unnecessary files and packages. Tested with LINE application and it worked!
+
+**Thoughts**: Removing all babel and typescript to make the code clean as much as I can is a good thing to do. Now, the code contains only thing that I fully understand! Tomorrow will set up production Mongodb and deploy the code to Google Cloud Run. If I have time, I plan to add CI/CD to the github repository as well; But let's see first. Lastly, I will add image memorizing and recalling feature and that will be the end of SaveIt project!
+
+**Link to work**: [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
