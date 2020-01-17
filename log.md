@@ -71,3 +71,11 @@
 **Thoughts**: Removing all babel and typescript to make the code clean as much as I can is a good thing to do. Now, the code contains only thing that I fully understand! Tomorrow will set up production Mongodb and deploy the code to Google Cloud Run. If I have time, I plan to add CI/CD to the github repository as well; But let's see first. Lastly, I will add image memorizing and recalling feature and that will be the end of SaveIt project!
 
 **Link to work**: [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
+
+### Day 10: Jan 17, 2020
+
+**Today's Progress**: Add Dockerfile and test application on production database (MongoDB Atlas)
+
+**Thoughts**: Today I tried to deploy the webhook to serverless docker container service (Google Cloud Run), but it requires the docker image to be only on Google Container Registry! To push the image to GCR, it might incur a cost which is opposite of my goal on this project (Deploy only to free service!). After falling from Cloud Run, I took a look on other serverless containers (AWS, Azure), but none of them are free T_T. So, I will find other solution for deploy this webhook to production!
+
+**Link to work**: [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
