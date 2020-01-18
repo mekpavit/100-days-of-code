@@ -79,3 +79,11 @@
 **Thoughts**: Today I tried to deploy the webhook to serverless docker container service (Google Cloud Run), but it requires the docker image to be only on Google Container Registry! To push the image to GCR, it might incur a cost which is opposite of my goal on this project (Deploy only to free service!). After falling from Cloud Run, I took a look on other serverless containers (AWS, Azure), but none of them are free T_T. So, I will find other solution for deploy this webhook to production!
 
 **Link to work**: [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
+
+### Day 11: Jan 18, 2020
+
+**Today's Progress**: Finish first part of second week assignment on Coursera Princeton's Algorithms course.
+
+**Thoughts**: The second week of this course focuses more on the elementary data structure/algorithm which are stack, queue and sorting. So, the assignment might not be exciting as much as the percolation problem from the previous week. But the good thing is that, I've learn a lot about Java from this week (Generic type, Iterator). I like how Java implements very strict type approach of coding which is, in my opinion, a very good way of coding since the code will be more scalable and maintainable (The later developer can know almost every details on the class/method due to the strict type!). I hope I can finish this assignment within tomorrow. So, I can continue the SaveIt project!
+
+**Link to work**: [My Assignments Repo](https://github.com/mekpavit/coursera-princeton-algorithms)
