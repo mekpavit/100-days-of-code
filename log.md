@@ -87,3 +87,11 @@
 **Thoughts**: The second week of this course focuses more on the elementary data structure/algorithm which are stack, queue and sorting. So, the assignment might not be exciting as much as the percolation problem from the previous week. But the good thing is that, I've learn a lot about Java from this week (Generic type, Iterator). I like how Java implements very strict type approach of coding which is, in my opinion, a very good way of coding since the code will be more scalable and maintainable (The later developer can know almost every details on the class/method due to the strict type!). I hope I can finish this assignment within tomorrow. So, I can continue the SaveIt project!
 
 **Link to work**: [My Assignments Repo](https://github.com/mekpavit/coursera-princeton-algorithms)
+
+### Day 12: Jan 19, 2020
+
+**Today's Progress**: Finish second week assignment on Coursera Princeton's Algorithms course.
+
+**Thoughts**: Unit test is very powerful! Compare to the first week which does not have the actual unit test, this week assignment passed the auto-grader in much less time! Looking forward to practice my TDD in all the project that is coming!
+
+**Link to work**: [My Assignments Repo](https://github.com/mekpavit/coursera-princeton-algorithms)
