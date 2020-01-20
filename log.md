@@ -95,3 +95,11 @@
 **Thoughts**: Unit test is very powerful! Compare to the first week which does not have the actual unit test, this week assignment passed the auto-grader in much less time! Looking forward to practice my TDD in all the project that is coming!
 
 **Link to work**: [My Assignments Repo](https://github.com/mekpavit/coursera-princeton-algorithms)
+
+### Day 13: Jan 20, 2020
+
+**Today's Progress**: Change shuffle algorithm to be inplaced (Algorithms course). Implement and deploy firebase function to SaveIt.
+
+**Thoughts**: After watching shuffling lesson on Coursera, I started to realize that; Even the simple algorithm like shuffling, it has some mathematic in it that need to be cared! For example, some shuffle algorithm might not result in an uniform shulffling! Very interesting to learn all of these. About the SaveIt project, today I deployed to Firebase which was easy because I can just add one more line to the code and it will be available to be deployed by Firebase CLI. But the lesson learn is that 1. Enviroment variable implementation in Firebase function is suck!!!! I need to use its library just to get the enviroment variable! which make the code coupled to the Firebase platform. It would be better if I can use process.env just like normal deployment. 2. Spark plan on Firebase does not let the application connect to external services!!!! which mean that, I might to use Firebase realtime db instead of Mongodb.
+
+**Link to work**: [My Assignments Repo](https://github.com/mekpavit/coursera-princeton-algorithms) [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
