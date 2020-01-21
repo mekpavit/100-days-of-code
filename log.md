@@ -103,3 +103,11 @@
 **Thoughts**: After watching shuffling lesson on Coursera, I started to realize that; Even the simple algorithm like shuffling, it has some mathematic in it that need to be cared! For example, some shuffle algorithm might not result in an uniform shulffling! Very interesting to learn all of these. About the SaveIt project, today I deployed to Firebase which was easy because I can just add one more line to the code and it will be available to be deployed by Firebase CLI. But the lesson learn is that 1. Enviroment variable implementation in Firebase function is suck!!!! I need to use its library just to get the enviroment variable! which make the code coupled to the Firebase platform. It would be better if I can use process.env just like normal deployment. 2. Spark plan on Firebase does not let the application connect to external services!!!! which mean that, I might to use Firebase realtime db instead of Mongodb.
 
 **Link to work**: [My Assignments Repo](https://github.com/mekpavit/coursera-princeton-algorithms) [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
+
+### Day 14: Jan 21, 2020
+
+**Today's Progress**: Fix the issue in the Dialogflow-Integration server and [pull request](https://github.com/GoogleCloudPlatform/dialogflow-integrations/pull/5) to the original repo.
+
+**Thoughts**: This in my first time of doing the pull request on the public repository! Very exciting to contribute something back to the community (even it is not merged to the repo, still worth it!). I also read about the Firestore (NoSQL) which I will uses instead of MongoDB because the Spark plan on the Firestore does not allow connecting to the external service. I will make this change and deploy tomorrow!
+
+**Link to work**: [Dialogflow-Integration Server](https://github.com/mekpavit/dialogflow-integrations/tree/fix/query-parameter-payload)
