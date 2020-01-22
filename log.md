@@ -111,3 +111,10 @@
 **Thoughts**: This in my first time of doing the pull request on the public repository! Very exciting to contribute something back to the community (even it is not merged to the repo, still worth it!). I also read about the Firestore (NoSQL) which I will uses instead of MongoDB because the Spark plan on the Firestore does not allow connecting to the external service. I will make this change and deploy tomorrow!
 
 **Link to work**: [Dialogflow-Integration Server](https://github.com/mekpavit/dialogflow-integrations/tree/fix/query-parameter-payload)
+
+### Day 15: Jan 22, 2020
+
+**Today's Progress**: Read JavaScript Promise. Read how to effectively write the Firebase functions.
+
+**Thoughts**: After deeply studying on Firebase ecosystem, I found that it is the most complete ecosystem I have ever seen! Firebase function provide its own unit testing implementation. The Firestore online testing mode is also provided with the exmaple! Therefore, I think I will dedicate a new Github repo for the saveit-webhook-firebase to learn about Firebase ecosystem and pause the current github repo as it is (Common Express app with Mongodb).
+**Link to work**: [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
