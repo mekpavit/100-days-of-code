@@ -118,3 +118,10 @@
 
 **Thoughts**: After deeply studying on Firebase ecosystem, I found that it is the most complete ecosystem I have ever seen! Firebase function provide its own unit testing implementation. The Firestore online testing mode is also provided with the exmaple! Therefore, I think I will dedicate a new Github repo for the saveit-webhook-firebase to learn about Firebase ecosystem and pause the current github repo as it is (Common Express app with Mongodb).
 **Link to work**: [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
+
+### Day 16: Jan 23, 2020
+
+**Today's Progress**: Deploy to Cloud Run.
+
+**Thoughts**: Change plan! I switched from Firebase function to Cloud Run because I feel that it would be part of Firebase platform someday. With Cloud Run, I can write tests like normal app which is very crucial for me because I want to practice more TDD!!! Tomorrow will add image memorizing feature to SaveIt. Also, it seems like the SaveIt cannot process multiple requests in the same time (forward 5+ messages from other chat to SaveIt). I will try to fix it tomorrow!
+**Link to work**: [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
