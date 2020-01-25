@@ -125,3 +125,10 @@
 
 **Thoughts**: Change plan! I switched from Firebase function to Cloud Run because I feel that it would be part of Firebase platform someday. With Cloud Run, I can write tests like normal app which is very crucial for me because I want to practice more TDD!!! Tomorrow will add image memorizing feature to SaveIt. Also, it seems like the SaveIt cannot process multiple requests in the same time (forward 5+ messages from other chat to SaveIt). I will try to fix it tomorrow!
 **Link to work**: [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
+
+### Day 17: Jan 25, 2020
+
+**Today's Progress**: Complete Coursera Algorithms course's third-week assignment.
+
+**Thoughts**: If you have bad test samples, the code will be properly tested! In this week assignment, I was too lazy to mock a good test sample! The consequence is that, my code passed that bad test but not passed the course test! After creating a better test sample, everything was much easier! So, next time, I will spend time to write a good test sample!
+**Link to work**: [My Assignments Repo](https://github.com/mekpavit/coursera-princeton-algorithms)
