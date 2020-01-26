@@ -132,3 +132,10 @@
 
 **Thoughts**: If you have bad test samples, the code will be properly tested! In this week assignment, I was too lazy to mock a good test sample! The consequence is that, my code passed that bad test but not passed the course test! After creating a better test sample, everything was much easier! So, next time, I will spend time to write a good test sample!
 **Link to work**: [My Assignments Repo](https://github.com/mekpavit/coursera-princeton-algorithms)
+
+### Day 18: Jan 26, 2020
+
+**Today's Progress**: Fix bug that the bot could only handle 2 messages from users when they forwarding 2 or more messages to the bot. Test getting the user's image from LINE server (getContent API)
+
+**Thoughts**: When 2 or more messages are sent to the bot in the same time (ex. messages from forwarding), the request body will contain more than one event. At first, I thought that LINE will send each request for each message sent and wrote the code to only handle the first event in the request body! This make the bot unable to handle more than 2 messages. After fixing and testing, now, the bot is working as expected! Next step is finding a way to work with Cloud Storage, so the bot can store the images from users!
+**Link to work**: [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
