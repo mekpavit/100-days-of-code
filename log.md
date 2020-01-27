@@ -139,3 +139,10 @@
 
 **Thoughts**: When 2 or more messages are sent to the bot in the same time (ex. messages from forwarding), the request body will contain more than one event. At first, I thought that LINE will send each request for each message sent and wrote the code to only handle the first event in the request body! This make the bot unable to handle more than 2 messages. After fixing and testing, now, the bot is working as expected! Next step is finding a way to work with Cloud Storage, so the bot can store the images from users!
 **Link to work**: [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
+
+### Day 19: Jan 27, 2020
+
+**Today's Progress**: Zero progress!
+
+**Thoughts**: Today I researched about how to upload binary file (recieved from LINE getMessageContent API) to Google Cloud Storage. The approach I think I will try is 1. Store binary file in tmp file using [tmp](https://www.npmjs.com/package/tmp) lib (in order to get file path) 2. Use google-cloud@storage lib to upload tmp file using tmp file path 3. When needs to publish the file in the bucket to the user, use getSignedUrl and send the url to the user. After implementing this method, I will start refactor the code using TypeScript!
+**Link to work**: [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
