@@ -145,5 +145,15 @@
 **Today's Progress**: Zero progress!
 
 **Thoughts**: Today I researched about how to upload binary file (recieved from LINE getMessageContent API) to Google Cloud Storage. The approach I think I will try is 1. Store binary file in tmp file using [tmp](https://www.npmjs.com/package/tmp) lib (in order to get file path) 2. Use google-cloud@storage lib to upload tmp file using tmp file path 3. When needs to publish the file in the bucket to the user, use getSignedUrl and send the url to the user. After implementing this method, I will start refactor the code using TypeScript!
+
 EDIT: Just found out that the File object of google-cloud@storage is writable object. So, we can use file.createWriteStream or file.save to directly upload binary object to it! [ref](https://github.com/googleapis/google-cloud-node/issues/2334)
+
+**Link to work**: [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
+
+### Day 20: Jan 28, 2020
+
+**Today's Progress**: Implement cloud storage.
+
+**Thoughts**: After understanding readable and writable object in fs library, hanlding file in NodeJS is easy! Luckily, I have some knowledge about cloud storage from Python project at work, so, the hard part is only dealing with file. Tomorrow will make the bot able to deal with image file and implement TypeScript!
+
 **Link to work**: [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
