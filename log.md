@@ -157,3 +157,12 @@ EDIT: Just found out that the File object of google-cloud@storage is writable ob
 **Thoughts**: After understanding readable and writable object in fs library, hanlding file in NodeJS is easy! Luckily, I have some knowledge about cloud storage from Python project at work, so, the hard part is only dealing with file. Tomorrow will make the bot able to deal with image file and implement TypeScript!
 
 **Link to work**: [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
+
+
+### Day 21: Jan 29, 2020
+
+**Today's Progress**: Re-write the code using TypeScript, in progress.
+
+**Thoughts**: Now, the POC state is ended. It's time to write a good code! After writing some Java during Algorithms class, the coding style learnt Java somehow make me better at writing the TypeScript. The unit testing concept descibed in the book, "the Art of Unit Testing", like Stub, Mock and perforimg dependency injection, will be used here in SaveIt-Webhook! For SaveItClient, I decided to inject dependencies via constructor because SaveIt-Webhook will need the client to declare the details of its dependencies which will give a flexible for SaveIt-Webhook to use with any platform, database and storage servicec!
+
+**Link to work**: [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
