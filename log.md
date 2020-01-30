@@ -166,3 +166,12 @@ EDIT: Just found out that the File object of google-cloud@storage is writable ob
 **Thoughts**: Now, the POC state is ended. It's time to write a good code! After writing some Java during Algorithms class, the coding style learnt Java somehow make me better at writing the TypeScript. The unit testing concept descibed in the book, "the Art of Unit Testing", like Stub, Mock and perforimg dependency injection, will be used here in SaveIt-Webhook! For SaveItClient, I decided to inject dependencies via constructor because SaveIt-Webhook will need the client to declare the details of its dependencies which will give a flexible for SaveIt-Webhook to use with any platform, database and storage servicec!
 
 **Link to work**: [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
+
+### Day 22: Jan 30, 2020
+
+**Today's Progress**: Draft SaveItClient. Add required interfaces. Finish TextMessage with unit test.
+
+**Thoughts**: It seems like I enjoy more when writing the well-organized code! It is fun when thinking about which operation should be in which class, what classes that this class should knows, or, how to write the class to make it testable. Hope that tomorrow, it will be more complete!
+
+**Link to work**: [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
+
