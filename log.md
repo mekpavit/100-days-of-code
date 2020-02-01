@@ -175,3 +175,10 @@ EDIT: Just found out that the File object of google-cloud@storage is writable ob
 
 **Link to work**: [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
 
+### Day 23: Jan 31, 2020
+
+**Today's Progress**: Test and solve Twitter integration issue on dialogflow-integration. Finish half of fourth-week assiangment of Algorithms I class.
+
+**Thoughts**: Just a quick note, request library will not classify an error response as error! So, to check whether or not the HTTP request is working, we need to check on the response body. If I have times, I will add response logging to dialogflow-integration.
+
+**Link to work**: [My Assignments Repo](https://github.com/mekpavit/coursera-princeton-algorithms), [dialogflow-integration issue](https://github.com/GoogleCloudPlatform/dialogflow-integrations/issues/13)
