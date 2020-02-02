@@ -175,10 +175,18 @@ EDIT: Just found out that the File object of google-cloud@storage is writable ob
 
 **Link to work**: [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
 
-### Day 23: Jan 31, 2020
+### Day 23: Feb 1, 2020
 
 **Today's Progress**: Test and solve Twitter integration issue on dialogflow-integration. Finish half of fourth-week assiangment of Algorithms I class.
 
 **Thoughts**: Just a quick note, request library will not classify an error response as error! So, to check whether or not the HTTP request is working, we need to check on the response body. If I have times, I will add response logging to dialogflow-integration.
 
 **Link to work**: [My Assignments Repo](https://github.com/mekpavit/coursera-princeton-algorithms), [dialogflow-integration issue](https://github.com/GoogleCloudPlatform/dialogflow-integrations/issues/13)
+
+### Day 24: Feb 2, 2020
+
+**Today's Progress**: Complete forth-week assignment of Algorithms course. Add first test case for SaveItClient and pass it!
+
+**Thoughts**: This is the first time writing mock and stub on JavaScript! This time, I try to follow the approach introduced in "the Art of Unit Testing" which states that: If you want to test the function that has external dependecies, you need to 1. Extract the interface from the implementation 2. Create mock/stub class in test case 3. Inject it via constructor/get&set/factory method. For SaveItClient, I choose injection via constructor because I designed the dependecy to be changable. The hard part is that I needs to code the mock class that satisfies all interface requirements (return Promise, recieve object) which quite tedious to write. After I get used to writing the test, I will try to lighten this burden by using third-party lib like Jest.
+
+**Link to work**: [My Assignments Repo](https://github.com/mekpavit/coursera-princeton-algorithms), [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
