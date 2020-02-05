@@ -190,3 +190,11 @@ EDIT: Just found out that the File object of google-cloud@storage is writable ob
 **Thoughts**: This is the first time writing mock and stub on JavaScript! This time, I try to follow the approach introduced in "the Art of Unit Testing" which states that: If you want to test the function that has external dependecies, you need to 1. Extract the interface from the implementation 2. Create mock/stub class in test case 3. Inject it via constructor/get&set/factory method. For SaveItClient, I choose injection via constructor because I designed the dependecy to be changable. The hard part is that I needs to code the mock class that satisfies all interface requirements (return Promise, recieve object) which quite tedious to write. After I get used to writing the test, I will try to lighten this burden by using third-party lib like Jest.
 
 **Link to work**: [My Assignments Repo](https://github.com/mekpavit/coursera-princeton-algorithms), [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
+
+### Day 25: Feb 5, 2020
+
+**Today's Progress**: Complete 3/4 main operation of SaveItClient with unit tests. Complete message methods with unit tests.
+
+**Thoughts**: Many things learned from Algorithms class are very useful and can be applied here. For example, the concept of equals method on JavaScript class which almost the same as equals on Java class. The equals method lets the unit testing on asserting two objects to be done within single assertion (as suggested in the Art of Unit Testing).
+
+**Link to work**: [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
