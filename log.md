@@ -198,3 +198,12 @@ EDIT: Just found out that the File object of google-cloud@storage is writable ob
 **Thoughts**: Many things learned from Algorithms class are very useful and can be applied here. For example, the concept of equals method on JavaScript class which almost the same as equals on Java class. The equals method lets the unit testing on asserting two objects to be done within single assertion (as suggested in the Art of Unit Testing).
 
 **Link to work**: [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
+
+
+### Day 26: Feb 6, 2020
+
+**Today's Progress**: Add MessageParser and unit tests. Complete all main operations of SaveItClient with unit tests.
+
+**Thoughts**: Error throwing is a very crucial thing that I'd always ignored. So, today, I tried to make error throwing in MessageParser and all messages to be complete as much as possible. It quite tedious since I have to write every test case for each error throwing! But I think it worth the time and helps me practicing TDD.
+
+**Link to work**: [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
