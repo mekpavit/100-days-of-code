@@ -207,3 +207,12 @@ EDIT: Just found out that the File object of google-cloud@storage is writable ob
 **Thoughts**: Error throwing is a very crucial thing that I'd always ignored. So, today, I tried to make error throwing in MessageParser and all messages to be complete as much as possible. It quite tedious since I have to write every test case for each error throwing! But I think it worth the time and helps me practicing TDD.
 
 **Link to work**: [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
+
+
+### Day 27: Feb 8, 2020
+
+**Today's Progress**: Add MongoDB implementation of MessageDatabase. Try beacon technology.
+
+**Thoughts**: Today is the first time trying Beacon technology. It's very interesting but, unfortunately, its easiest implentation (Eddystone) was discontinued. But luckily, we still have LINE Beacon that can enable Beacon implementation without creating your own app!
+
+**Link to work**: [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
