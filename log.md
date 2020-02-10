@@ -225,3 +225,12 @@ EDIT: Just found out that the File object of google-cloud@storage is writable ob
 **Thoughts**: the hardest part of using TypeScript is not how to write it. It is how to make it compliable! This was the first time I tried to build and run the TypeScript application. So, before this, I'd never known that the .ts files are needed to be complied first before running it. Therefore, next time, I might need to write and compile the TypeScript program early at the beginning.
 
 **Link to work**: [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
+
+
+### Day 29: Feb 10, 2020
+
+**Today's Progress**: Complete 5th-week assignment on Algorithm I course
+
+**Thoughts**: Some algorithm (such as BST) requires recursive code to make it easy to be implemented. After finished this assignment, I've started to understand how to think and write the recursive loop!
+
+**Link to work**: [My Assignments Repo](https://github.com/mekpavit/coursera-princeton-algorithms)
