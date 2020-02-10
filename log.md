@@ -216,3 +216,12 @@ EDIT: Just found out that the File object of google-cloud@storage is writable ob
 **Thoughts**: Today is the first time trying Beacon technology. It's very interesting but, unfortunately, its easiest implentation (Eddystone) was discontinued. But luckily, we still have LINE Beacon that can enable Beacon implementation without creating your own app!
 
 **Link to work**: [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
+
+
+### Day 28: Feb 9, 2020
+
+**Today's Progress**: Add LINEPlatform and GoogleCloudStorage implementation. Compile and test the easiest version of SaveIt.
+
+**Thoughts**: the hardest part of using TypeScript is not how to write it. It is how to make it compliable! This was the first time I tried to build and run the TypeScript application. So, before this, I'd never known that the .ts files are needed to be complied first before running it. Therefore, next time, I might need to write and compile the TypeScript program early at the beginning.
+
+**Link to work**: [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
