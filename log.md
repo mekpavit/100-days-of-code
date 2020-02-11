@@ -234,3 +234,12 @@ EDIT: Just found out that the File object of google-cloud@storage is writable ob
 **Thoughts**: Some algorithm (such as BST) requires recursive code to make it easy to be implemented. After finished this assignment, I've started to understand how to think and write the recursive loop!
 
 **Link to work**: [My Assignments Repo](https://github.com/mekpavit/coursera-princeton-algorithms)
+
+
+### Day 28: Feb 9, 2020
+
+**Today's Progress**: Complete remembering and calling Image message feature!
+
+**Thoughts**: Dealing with file on Node is quite confusing (for me that come from Python). There are many new words to remember and understand like readable, writable, stream or buffer. And each one has its own way of implementation, for example, readable and writeable use `pipe`, while buffer is just the object. And because of there, when I use the library that deal wuth file (google-cloud-storage or sharp), I was struggle with consufing which type of file needed to be used in which library... So, I think I need to play more with Node file handling!
+
+**Link to work**: [SaveIt-Webhook](https://github.com/mekpavit/saveit-webhook)
