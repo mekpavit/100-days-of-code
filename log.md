@@ -259,3 +259,11 @@ EDIT: Just found out that the File object of google-cloud@storage is writable ob
 **Thoughts**: Directed Graph (Digraph) is very interesting! I think it could be the data structure behind all the map applications. The shortest path algorithm implemented using BFS seems to be a optimized solution for route finding in the map application. I should explore more on this topic!
 
 **Link to work**: [My Assignments Repo](https://github.com/mekpavit/coursera-princeton-algorithms)
+
+### Day 31: Mar 15, 2020
+
+**Today's Progress**: Complete 4th-week assignment on Algorithms II.
+
+**Thoughts**: Graph algorithm is a very important thing, especially graph travesing algorithm! It is implemented in every problem that can be represented as graph, for example, R-tries. Important lesson is that, we should create private separated Node data structure for a graph algorithm. And when we need to traverse the graph, we should have another private separated method that return the selected node.
+
+**Link to work**: [My Assignments Repo](https://github.com/mekpavit/coursera-princeton-algorithms)
